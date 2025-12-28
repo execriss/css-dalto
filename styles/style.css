@@ -1,0 +1,614 @@
+/* * {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.contact-form {
+    font-size: 50px;
+}
+
+.contact-form__title {
+    font-size: 2em;
+    color: blue;
+}
+
+.contact-form__description {
+    font-size: 1.2em;
+    color: gray;
+} */
+
+/* h1 {
+    display: inline;
+    background: rgb(170, 210, 255);
+    height: 200px;
+    width: 200px;
+} */
+
+/* p {
+    background: rgb(174, 226, 174);
+    height: 200px;
+    width: 200px;
+} */
+
+h2 {
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
+    /* padding: 0px 25px; */
+    /* padding: 20px 30px 40px; */
+    /* height: 100px; */
+    /* width: 100px; */
+    /* box-sizing: border-box; */
+    /* text-align: center; */
+    /* background-color: rgb(106, 106, 179);
+    font-size: 20px;
+    display: inline-block;
+    padding: 100px;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 3px solid brown;
+    box-shadow: 10px 40px 20px 0 #000;
+    text-shadow: 2px 5px 2px #fff;
+    transform: rotate(25deg); */
+}
+
+/* .box1 {
+    width: 200px;
+    height: 200px;
+    background: violet;
+    margin: auto;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: auto;
+}
+
+.contact-form div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    display: inline-block;
+    outline: 5px solid blue;
+} */
+
+/* CONTINUAR EN POSITION RELATIVE 2:05 */
+/* 
+div {
+    width: 120px;
+    height: 120px;
+}
+
+.caja1 {
+    background: red;
+}
+
+.caja2 {
+    background: blue;
+    position: relative;
+    left: 50px;
+    top: 50px   ;
+    bottom: 50px;
+    z-index: 10;
+}
+
+.caja3 {
+    background: violet;
+    position: relative;
+}
+
+.caja4 {
+    background: lightblue;
+} */
+
+/* CONTINUAR EN POSITION ABSOLUTE 2:22:50 */
+/* 
+.container {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    background: #ffc4c4;
+    border: 3px solid blue;
+    margin: 50px auto;
+}
+
+.container div {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: red;
+
+}
+
+.caja1 {
+    left: 0;
+    top: 0;
+}
+
+.caja2 {
+    right: 0;
+    top: 0;
+}
+
+.caja3 {
+    left: 0;
+    bottom: 0;
+}
+
+
+.caja4 {
+    bottom: 0;
+    right: 0;
+}
+
+.caja5 {
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+} */
+
+/* POSITION FIXED */
+/* Es igual que el position absolute, pero queda fijo.
+TIene todas las propiedades de un absolute, pero se queda fijo en un 
+mismo lugar. */
+
+
+/* body {
+    padding-top: 100px;
+} */
+
+/* .fixed-box {
+    background: rgb(194, 190, 253);
+    position: fixed;
+    margin-top: -100px;
+} */
+
+/* POSITION STICKY
+reserva su lugar en el DOM, como lo hace RELATIVE pero se queda fijo 
+donde nosotros le digamos, por ejemplo si podemos el elemento entre dos 
+textos, y le decimos top: 0, vamos a scrollear, y al llegar a la posicion
+0, se va a quedar fijo */
+
+/* .fixed-box {
+    background: rgb(194, 190, 253);
+    position: sticky;
+    opacity: 0.4;
+    top: 0;
+} */
+
+/* div {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(241, 138, 138);
+    background: rgb(172, 172, 106);
+    display: flex;
+} */
+/* 
+body {
+    background: black;
+}
+
+div {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border: 4px solid rgb(122, 122, 235);
+    overflow: hidden;
+}
+
+img {
+    position: relative;
+    outline: 2px solid yellow;
+    transition: all 2s;
+}
+
+div:hover > img {
+    position: relative;
+    top: 80px;
+    left: 40px;
+} */
+
+/* PSEUDO ELEMENTOS */
+/* .text {
+    padding: 20px;
+}
+
+.text::first-line {
+    color: red;
+}
+
+.text::first-letter {
+    color: rgb(148, 71, 71);
+} */
+
+/* form {
+    margin: 100px auto;
+    background: #555;
+    padding: 20px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: red;
+    background: yellow;
+}
+
+input::selection {
+    color: rgb(81, 91, 180);
+    background: yellow;
+}
+
+b::before {
+    content: "Me suscribí ";
+}
+
+b::after {
+    content: " a tu vieja ";
+}
+
+p::after {
+    content: "HOla"
+} */
+
+/* PSEUDOCLASES */
+
+/* .box1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s;
+}
+
+.box1:hover{
+    background: rgb(24, 71, 102);
+    height: 300px;
+    width: 300px;
+}
+
+button {
+    padding: 20px;
+    width: 300px;
+    height: 80px;
+    background: red;
+    color: white;
+    transition: all 1s;
+}
+
+button:hover {
+    background: white;
+    color: red;
+    padding: 10px;
+    width: 340px;
+    height: 90px;
+} */
+
+/* a{
+    padding: 20px;
+    color: blue;
+    display: block;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: yellow;
+} */
+
+/* .caja {
+    width: 300px;
+    height: 300px;
+    background: red;
+    transition: all 1s;
+}
+
+.caja:active {
+    background: blue;
+    width: 250px;
+    height: 250px;
+} */
+
+/* input {
+    background: red;
+    transition: all 1s;
+}
+
+input:focus {
+    background: rgb(226, 100, 100);
+} */
+
+/* .caja b:lang(en) {
+    color: red;
+} */
+
+/* OBJECT FIT: PROPIEDAD PARA DARLE TAMAÑO A LA IMAGEN, CON CONTAIN RESPETA LAS DIMENSIONES 
+DEL CONTENEDOR, PERO AGREGANDO ESPACIO EN BLANCO. COVER RELLENA TODO EL ESPACIO POSIBLE CON LA IMAGEN
+Y NONE NO HACE NADA. */
+
+/* .caja {
+    width: 300px;
+    height: 500px;
+    border: 3px solid rgb(214, 73, 73);
+}
+
+.caja img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -80px;
+} */
+
+/* .container {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(214, 211, 211);
+    margin: 200px auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px black;
+    transition: all 1s;
+}
+
+.container:hover {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(214, 211, 211);
+    margin: 200px auto;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px black;
+}
+
+.container img {
+    object-fit: cover;
+    padding: 2px;
+} */
+
+/* CURSOR */
+/* .caja {
+    height: 40px;
+    width: 40px;
+    background: rgb(221, 218, 218);
+    cursor: pointer;
+} */
+
+
+/* COLORES */
+
+/* .caja {
+    height: 300px;
+    width: 250px;
+    border: 3px solid red;
+    background: #48e;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+/* ul li {
+    list-style: none;
+} */
+
+/* 
+
+.nav__responsive-ul {
+    display: none;
+} */
+
+
+/* DESKTOP */
+/* .nav {
+    background: darkmagenta;
+    width: 100%;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 9px;
+    color: white;
+}
+
+.nav__li:hover i a {
+    color: #aaa;
+}
+
+.nav__li:hover {
+    color: #aaa;
+}
+
+.nav__li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__li i {
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav__responsive-button {
+    float: right;
+    font-size: 25px;
+    padding: 6px 20px;
+}
+
+.nav__responsive-button-container {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    background: slateblue;
+}
+
+.nav__responsive-button {
+    padding: 6px 20px;
+    text-align: right;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav__ul {
+        display: none;
+    }
+
+    .nav {
+        height: 37px;
+        width: 100%;
+    }
+
+    .nav__responsive-ul {
+        display: block;
+        position: absolute;
+        width: 100%;
+        background: rgb(142, 124, 253);
+        height: 100%;
+    }
+
+    .nav__responsive-li {
+        width: 100%;
+        padding: 9px 20px;
+    }
+
+    .nav__responsive-li i {
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+        color: white;
+    }
+
+    .nav__responsive-li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+} */
+
+/* FLEXBOX */
+/* 
+.container{
+    display: flex;
+    height: 100vh;
+    background: rgb(253, 202, 185);
+    align-content: flex-start;
+} */
+
+/* .flex-item{
+    background: rgb(9, 35, 75);
+    margin: 10px;
+    height: 120px;
+    min-width: 150px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+} */
+
+/* .orange {
+    background: orange;
+    flex: 1;
+    order: 5;
+} */
+/* align-self: flex-end; */
+
+/* .green {
+    background: green;
+} */
+/* flex-shrink: 5; */
+
+body {
+    background: #000;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+    margin: 50px 50px;
+    border: 14px solid #000;
+    outline: 3px solid #094;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+.form__input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #1c7;
+    background: transparent;
+    color: #fff;
+}
+
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #5f9;
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.form-img {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    order: 2;
+}
+
+.form-img div {
+    padding: 10px;
+}
+
+.img-container {
+    margin: auto;
+}
+
+.img-container div {
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.form-img img {
+    width: 80%;
+}
+
+.form input[type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(6, 133, 63);
+    border-bottom: none;
+    cursor: pointer;
+}
